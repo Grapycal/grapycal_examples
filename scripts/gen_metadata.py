@@ -125,7 +125,7 @@ def main():
     # get the root directory
     root = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
     # get the workspaces directory
-    workspaces = os.path.join(root,'workspaces')
+    workspaces = os.path.join(root,'files')
     # get the metadata file
     metadata_file = os.path.join(root,'metadata.json')
     
