@@ -1,3 +1,4 @@
-scripts\gen_metadata.sh
-git commit -am "publish"
+python scripts\gen_metadata.py
+git add .
+git commit -m "publish"
 git push origin main
