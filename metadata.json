@@ -6,7 +6,7 @@
             "extensions": [
                 {
                     "name": "grapycal_builtin",
-                    "version": "0.9.0"
+                    "version": "0.7.0"
                 }
             ],
             "name": "Welcome.grapycal"
@@ -35,14 +35,14 @@
                     "extensions": [
                         {
                             "name": "grapycal_builtin",
-                            "version": "0.9.0"
+                            "version": "0.7.0"
                         },
                         {
                             "name": "grapycal_torch",
                             "version": "0.1.2"
                         }
                     ],
-                    "name": "VAE.grapycal"
+                    "name": "NeuralNetworkBasics.grapycal"
                 }
             ],
             "dirs": []
