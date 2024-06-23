@@ -1,0 +1,27 @@
+# runs scripts/gen_metadata.py then commits the changes to the repo
+
+name: Generate Metadata
+
+on:
+  push:
+    branches:
+      - mmain
+
+jobs:
+    gen_metadata:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Set up Python
+              uses: actions/setup-python@v2
+              with:
+                python-version: '3.x'
+            - name: Run script
+              run: python scripts/gen_metadata.py
+            - name: Commit changes
+              run: |
+                git config --local user.email "a931eric@gmail.com"
+                git config --local user.name "eri24816"
+                git add metadata.json
+                git commit -m "Update metadata.json"
+                git push
