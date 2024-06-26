@@ -2,7 +2,7 @@
     "name": "files",
     "files": [
         {
-            "version": "0.18.0+dev",
+            "version": "0.18.0",
             "extensions": [
                 {
                     "name": "grapycal_builtin",
@@ -10,7 +10,7 @@
                 },
                 {
                     "name": "grapycal_audio",
-                    "version": "0.0.0"
+                    "version": "0.1.0"
                 },
                 {
                     "name": "grapycal_torch",
@@ -171,7 +171,7 @@
             "name": "torch",
             "files": [
                 {
-                    "version": "0.18.0+dev",
+                    "version": "0.18.0",
                     "extensions": [
                         {
                             "name": "grapycal_builtin",
@@ -185,7 +185,7 @@
                     "name": "NeuralNetworkBasics.grapycal"
                 },
                 {
-                    "version": "0.11.1",
+                    "version": "0.18.0",
                     "extensions": [
                         {
                             "name": "grapycal_torch",
@@ -193,7 +193,7 @@
                         },
                         {
                             "name": "grapycal_builtin",
-                            "version": "0.11.1"
+                            "version": "0.11.3"
                         }
                     ],
                     "name": "ImageEdit.grapycal"
