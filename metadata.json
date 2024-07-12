@@ -36,7 +36,7 @@
             "name": "mandelbrot.grapycal"
         },
         {
-            "version": "0.18.0",
+            "version": "0.20.0+dev",
             "extensions": [
                 {
                     "name": "grapycal_builtin",
