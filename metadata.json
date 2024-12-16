@@ -9,16 +9,6 @@
                     "version": "0.11.3"
                 }
             ],
-            "name": "fractal.grapycal"
-        },
-        {
-            "version": "0.20.0+dev",
-            "extensions": [
-                {
-                    "name": "grapycal_builtin",
-                    "version": "0.11.3"
-                }
-            ],
             "name": "welcome.grapycal"
         },
         {
@@ -56,110 +46,57 @@
                 }
             ],
             "name": "music_player.grapycal"
+        },
+        {
+            "version": "0.20.0+dev",
+            "extensions": [
+                {
+                    "name": "grapycal_builtin",
+                    "version": "0.11.3"
+                }
+            ],
+            "name": "fractal.grapycal"
         }
     ],
     "dirs": [
         {
+            "name": "torch",
+            "files": [
+                {
+                    "version": "0.20.0+dev",
+                    "extensions": [
+                        {
+                            "name": "grapycal_torch",
+                            "version": "0.3.0"
+                        },
+                        {
+                            "name": "grapycal_builtin",
+                            "version": "0.11.3"
+                        }
+                    ],
+                    "name": "image_edit.grapycal"
+                },
+                {
+                    "version": "0.20.0+dev",
+                    "extensions": [
+                        {
+                            "name": "grapycal_builtin",
+                            "version": "0.11.3"
+                        },
+                        {
+                            "name": "grapycal_torch",
+                            "version": "0.3.0"
+                        }
+                    ],
+                    "name": "neural_network_basics.grapycal"
+                }
+            ],
+            "dirs": []
+        },
+        {
             "name": "older versions",
             "files": [],
             "dirs": [
-                {
-                    "name": "0.19.0",
-                    "files": [
-                        {
-                            "version": "0.18.0+dev",
-                            "extensions": [
-                                {
-                                    "name": "grapycal_builtin",
-                                    "version": "0.11.3"
-                                }
-                            ],
-                            "name": "fractal.grapycal"
-                        },
-                        {
-                            "version": "0.18.0+dev",
-                            "extensions": [
-                                {
-                                    "name": "grapycal_builtin",
-                                    "version": "0.11.3"
-                                },
-                                {
-                                    "name": "grapycal_torch",
-                                    "version": "0.3.0"
-                                }
-                            ],
-                            "name": "mandelbrot.grapycal"
-                        },
-                        {
-                            "version": "0.18.0+dev",
-                            "extensions": [
-                                {
-                                    "name": "grapycal_builtin",
-                                    "version": "0.11.3"
-                                }
-                            ],
-                            "name": "Welcome.grapycal"
-                        },
-                        {
-                            "version": "0.18.0",
-                            "extensions": [
-                                {
-                                    "name": "grapycal_builtin",
-                                    "version": "0.11.3"
-                                },
-                                {
-                                    "name": "grapycal_audio",
-                                    "version": "0.1.0"
-                                },
-                                {
-                                    "name": "grapycal_torch",
-                                    "version": "0.3.0"
-                                },
-                                {
-                                    "name": "grapycal_audio_torch",
-                                    "version": "0.3.0"
-                                }
-                            ],
-                            "name": "music_player.grapycal"
-                        }
-                    ],
-                    "dirs": [
-                        {
-                            "name": "torch",
-                            "files": [
-                                {
-                                    "version": "0.18.0",
-                                    "extensions": [
-                                        {
-                                            "name": "grapycal_builtin",
-                                            "version": "0.11.3"
-                                        },
-                                        {
-                                            "name": "grapycal_torch",
-                                            "version": "0.3.0"
-                                        }
-                                    ],
-                                    "name": "NeuralNetworkBasics.grapycal"
-                                },
-                                {
-                                    "version": "0.18.0",
-                                    "extensions": [
-                                        {
-                                            "name": "grapycal_torch",
-                                            "version": "0.3.0"
-                                        },
-                                        {
-                                            "name": "grapycal_builtin",
-                                            "version": "0.11.3"
-                                        }
-                                    ],
-                                    "name": "ImageEdit.grapycal"
-                                }
-                            ],
-                            "dirs": []
-                        }
-                    ]
-                },
                 {
                     "name": "0.11.0",
                     "files": [
@@ -179,7 +116,7 @@
                             "name": "torch",
                             "files": [
                                 {
-                                    "version": "0.11.3",
+                                    "version": "0.20.0+dev",
                                     "extensions": [
                                         {
                                             "name": "grapycal_builtin",
@@ -202,6 +139,103 @@
                                         {
                                             "name": "grapycal_builtin",
                                             "version": "0.11.1"
+                                        }
+                                    ],
+                                    "name": "ImageEdit.grapycal"
+                                }
+                            ],
+                            "dirs": []
+                        }
+                    ]
+                },
+                {
+                    "name": "0.19.0",
+                    "files": [
+                        {
+                            "version": "0.18.0+dev",
+                            "extensions": [
+                                {
+                                    "name": "grapycal_builtin",
+                                    "version": "0.11.3"
+                                },
+                                {
+                                    "name": "grapycal_torch",
+                                    "version": "0.3.0"
+                                }
+                            ],
+                            "name": "mandelbrot.grapycal"
+                        },
+                        {
+                            "version": "0.18.0",
+                            "extensions": [
+                                {
+                                    "name": "grapycal_builtin",
+                                    "version": "0.11.3"
+                                },
+                                {
+                                    "name": "grapycal_audio",
+                                    "version": "0.1.0"
+                                },
+                                {
+                                    "name": "grapycal_torch",
+                                    "version": "0.3.0"
+                                },
+                                {
+                                    "name": "grapycal_audio_torch",
+                                    "version": "0.3.0"
+                                }
+                            ],
+                            "name": "music_player.grapycal"
+                        },
+                        {
+                            "version": "0.18.0+dev",
+                            "extensions": [
+                                {
+                                    "name": "grapycal_builtin",
+                                    "version": "0.11.3"
+                                }
+                            ],
+                            "name": "Welcome.grapycal"
+                        },
+                        {
+                            "version": "0.18.0+dev",
+                            "extensions": [
+                                {
+                                    "name": "grapycal_builtin",
+                                    "version": "0.11.3"
+                                }
+                            ],
+                            "name": "fractal.grapycal"
+                        }
+                    ],
+                    "dirs": [
+                        {
+                            "name": "torch",
+                            "files": [
+                                {
+                                    "version": "0.18.0",
+                                    "extensions": [
+                                        {
+                                            "name": "grapycal_builtin",
+                                            "version": "0.11.3"
+                                        },
+                                        {
+                                            "name": "grapycal_torch",
+                                            "version": "0.3.0"
+                                        }
+                                    ],
+                                    "name": "NeuralNetworkBasics.grapycal"
+                                },
+                                {
+                                    "version": "0.18.0",
+                                    "extensions": [
+                                        {
+                                            "name": "grapycal_torch",
+                                            "version": "0.3.0"
+                                        },
+                                        {
+                                            "name": "grapycal_builtin",
+                                            "version": "0.11.3"
                                         }
                                     ],
                                     "name": "ImageEdit.grapycal"
@@ -263,40 +297,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "name": "torch",
-            "files": [
-                {
-                    "version": "0.20.0+dev",
-                    "extensions": [
-                        {
-                            "name": "grapycal_torch",
-                            "version": "0.3.0"
-                        },
-                        {
-                            "name": "grapycal_builtin",
-                            "version": "0.11.3"
-                        }
-                    ],
-                    "name": "image_edit.grapycal"
-                },
-                {
-                    "version": "0.20.0+dev",
-                    "extensions": [
-                        {
-                            "name": "grapycal_builtin",
-                            "version": "0.11.3"
-                        },
-                        {
-                            "name": "grapycal_torch",
-                            "version": "0.3.0"
-                        }
-                    ],
-                    "name": "neural_network_basics.grapycal"
-                }
-            ],
-            "dirs": []
         }
     ]
 }
